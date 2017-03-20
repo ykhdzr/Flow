@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'flow'
+
+    publishedGroupId = 'com.ykhdzr'
+    libraryName = 'Flow'
+    artifact = 'flow'
+
+    libraryDescription = 'Android Library for wrap activity-to-activity and/or activity-to-fragment intent'
+
+    siteUrl = 'https://github.com/ykhdzr/Flow'
+    gitUrl = 'https://github.com/ykhdzr/Flow.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'ykhdzr'
+    developerName = 'Yoko Ahadazaro'
+    developerEmail = 'ahadazaro.yoko@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -29,3 +53,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.0'
     testCompile 'junit:junit:4.12'
 }
+
+apply from: 'installv1.gradle'
+apply from: 'bintrayv1.gradle'

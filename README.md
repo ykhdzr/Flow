@@ -3,8 +3,6 @@
 
 Flow
 =======
-Android wrapper to simplify process for start an Activity
-
 Abilities is to Start an Activity : 
 1. from Activity
 2. from Fragment

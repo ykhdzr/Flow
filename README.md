@@ -1,4 +1,5 @@
 [![License](https://img.shields.io/github/license/pluscubed/recycler-fast-scroll.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Flow-green.svg?style=true)](https://android-arsenal.com/details/1/5451)
 
 
 Flow

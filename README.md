@@ -12,8 +12,6 @@ Abilities is to Start an Activity :
 5. with Intent Flag
 6. for result
 
-Basically this library include just one simple class that implementing Builder pattern
-
 Usage
 =======
 ``` java

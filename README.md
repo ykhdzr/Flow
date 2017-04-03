@@ -4,7 +4,7 @@
 
 Flow
 =======
-Abilities is to Start an Activity : 
+Abilities are to start an Activity : 
 1. from Activity
 2. from Fragment
 3. with Intent Filter

@@ -51,7 +51,7 @@ Installation
 To include in your gradle app:
 
 	dependencies {
-	  compile 'com.ykhdzr:flow::1.0.0'
+	  compile 'com.ykhdzr:flow:1.0.0'
 	}
 
 License
